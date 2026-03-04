@@ -114,7 +114,7 @@ namespace ConsoleTemplateNET10_V5
         private void Draw()
         {
             Console.Clear();
-            Console.WriteLine($"=== {_title} ===\n");
+            Console.WriteLine($"=== {this._title} ===\n");
 
             for (int i = 0; i < _items.Count; i++)
             {
@@ -127,7 +127,6 @@ namespace ConsoleTemplateNET10_V5
                 }
 
                 Console.WriteLine($"{(i == this._selectedIndex ? ">" : " ")} {item.Shortcut}) {item.Icon}\u00A0 {item.Text}");
-
                 Console.ResetColor();
             }
 
@@ -140,7 +139,7 @@ namespace ConsoleTemplateNET10_V5
         private void ExecuteSelected()
         {
             Console.Clear();
-            this._items[_selectedIndex].Action.Invoke();
+            this._items[this._selectedIndex].Action.Invoke();
         }
 
         private class MenuItem
