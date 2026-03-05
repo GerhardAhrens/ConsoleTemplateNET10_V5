@@ -1,3 +1,10 @@
 <Solution>
+  <Folder Name="/_Doc/">
+    <File Path="LICENSE.txt" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/_Template/">
+    <File Path="ConsoleTemplateNET10_V5.zip" />
+  </Folder>
   <Project Path="ConsoleTemplateNET10_V5/ConsoleTemplateNET10_V5.csproj" />
 </Solution>
