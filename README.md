@@ -32,3 +32,12 @@ private static void Main(string[] args)
     mainMenu.Show();
 }
 ```
+
+Um das Template nutzen zu können, muß die ZIP-Datei **ConsoleTemplateNET10_V5.zip** in das entsprechde Verzeichnis der Speicherorte zu kopieren.
+
+![Speicherorte](TemplateOrte.png)
+
+Bei der Erstellung eines neuen Projekts, kann das Template aus der Liste der verfügbaren Templates ausgewählt werden. Es ist wichtig, den richtigen Speicherort auszuwählen, damit das Template gefunden wird.
+
+![Speicherorte](TemplateNeuesProjekt.png)
+
